@@ -1,0 +1,20 @@
+{
+  "name": "should-i-buy",
+  "version": "1.0.0",
+  "description": "Stock Recommendation Application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Darrell Teo",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "1.2.3",
+    "axios": "0.19.0",
+    "dotenv": "8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.19.1"
+  }
+}
